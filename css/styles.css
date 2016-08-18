@@ -34,7 +34,7 @@
 }
 .container {
   height: 50px;
-  background-color: pink;
+  background-color: green;
 }
 .yellow {
   background-color: yellow;
@@ -43,4 +43,16 @@
   position:absolute;
   top: 20px;
   left: 200px;
+}
+
+@media screen (min-width: 768px) {
+  .container {
+    background: orange;
+  }
+}
+
+@media (min-width: 375px) {
+.container-fluid {
+  background: pink;
+  }
 }
